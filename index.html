@@ -19,7 +19,7 @@
 <section class="section"><div><h2>Mapa de mesas · Páreo</h2><p>Planta preliminar para organização do jantar.</p></div></section><img class="seating-map" src="assets/mapa-mesas-pareo.jpg" alt="Mapa preliminar de mesas do Páreo"><p class="map-caption">Planta recebida com 15 mesas numeradas, palco e acessos indicados.</p><p class="foot">Uso interno da organização do Jantar dos Amigos Direito UERJ. Este painel consolida a planilha comparativa fornecida e não substitui cotações, contratos ou aprovações formais.</p>
 </main>
 <script>
-const base={buffet:359,corkage:50,service:10,pareoFee:8000,production:3700,photographer:900,sound:4495,backdrop:2420.75,wristband:0,displays:200,flowers:2450,printing:55,tables:0,tablecloths:0};
+const base={buffet:359,corkage:50,service:10,pareoFee:8000,production:3700,photographer:900,sound:4495,backdrop:2420.75,wristband:0,displays:200,flowers:2450,printing:55,tables:5500,tablecloths:2140};
 let data=structuredClone(base);
 const fmt=n=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(n); const nfmt=n=>new Intl.NumberFormat('pt-BR',{maximumFractionDigits:2}).format(n);
 const fields=[['buffet','Buffet Opção 2 (R$/pessoa)','Na simulação'],['corkage','Vinho (R$/pessoa)','Estimado'],['service','Taxa de serviço (%)','Estimado'],['pareoFee','Taxa de abertura · Páreo','Na simulação'],['production','Produção','Na simulação'],['photographer','Fotógrafo','Aprovado'],['sound','Som / recepção','Na simulação'],['backdrop','Backdrop e banner','Na simulação'],['wristband','Pulseira','Estimado'],['displays','Displays de mesa','Estimado'],['flowers','Decoração / flores','Aprovado'],['printing','Impressão','Estimado'],['tables','Mesas (15 un.)','Na simulação'],['tablecloths','Toalhas e forros (15 un.)','Aprovado']];
